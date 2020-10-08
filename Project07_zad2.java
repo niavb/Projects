@@ -18,7 +18,7 @@ public class Projects07_zad2 {
 			totalTuition += uniTuition;
 		}
 		
-		System.out.println("The total cost of four years’ worth of tuition after the tenth year: " + Math.ceil(totalTuition));
+		System.out.println("The total cost of four yearsâ€™ worth of tuition after the tenth year: " + Math.ceil(totalTuition));
 		
 
 	}
