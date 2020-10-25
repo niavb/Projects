@@ -13,7 +13,7 @@ public class StudentTest {
 	}
 	
 	public static void studentsWithStipendia(Student[] students) {
-		System.out.println("Учениците със стипендии са: ");
+		System.out.println("Г“Г·ГҐГ­ГЁГ¶ГЁГІГҐ Г±ГєГ± Г±ГІГЁГЇГҐГ­Г¤ГЁГЁ Г±Г : ");
 		for(int i=0; i < students.length; i++) {
 			if(hasStipendia(students[i])) {
 				System.out.println(students[i].name);
@@ -31,7 +31,7 @@ public class StudentTest {
 		}
 		
 		for(int i=0; i<5; i++) {
-			System.out.println("Въведете име/успех: ");
+			System.out.println("Г‚ГєГўГҐГ¤ГҐГІГҐ ГЁГ¬ГҐ/ГіГ±ГЇГҐГµ: ");
 			students[i].StudentData(sc.next(), sc.nextDouble());
 		}
 		
