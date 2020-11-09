@@ -2,10 +2,10 @@ package projects13;
 
 public class RegularPolygon {
 	
-	private int n; //броя на страните
-	private double sideLength; //дължината на страните
-	private double x; //x-координатата на центъра
-	private double y; //у-координатата на центъра
+	private int n; //ГЎГ°Г®Гї Г­Г  Г±ГІГ°Г Г­ГЁГІГҐ
+	private double sideLength; //Г¤ГєГ«Г¦ГЁГ­Г ГІГ  Г­Г  Г±ГІГ°Г Г­ГЁГІГҐ
+	private double x; //x-ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ ГІГ  Г­Г  Г¶ГҐГ­ГІГєГ°Г 
+	private double y; //Гі-ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ ГІГ  Г­Г  Г¶ГҐГ­ГІГєГ°Г 
 	
 	public RegularPolygon() {
 		n = 3;
