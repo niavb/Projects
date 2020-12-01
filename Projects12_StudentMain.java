@@ -10,11 +10,7 @@ public class Projects12_StudentMain {
 		Student[] students = new Student[5];
 		
 		for(int i=0; i<5; i++) {
-			students[i] = new Student();
-		}
-		
-		for(int i=0; i<5; i++) {
-			System.out.println("Âúâåäåòå èìå/óñïåõ: ");
+			System.out.println("Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ Ã¨Ã¬Ã¥/Ã³Ã±Ã¯Ã¥Ãµ: ");
 			String name = sc.nextLine();
 			double uspeh = sc.nextDouble();
 			sc.nextLine();
@@ -32,7 +28,7 @@ public class Projects12_StudentMain {
 	}
 	
 	public static void studentsWithStipendia(Student students[]) {
-		System.out.println("Ó÷åíèöèòå ñúñ ñòèïåíäèè ñà: ");
+		System.out.println("Ã“Ã·Ã¥Ã­Ã¨Ã¶Ã¨Ã²Ã¥ Ã±ÃºÃ± Ã±Ã²Ã¨Ã¯Ã¥Ã­Ã¤Ã¨Ã¨ Ã±Ã : ");
 		for(int i=0; i < students.length; i++) {
 			if(hasStipendia(students[i])) {
 				System.out.println(students[i].getName());
