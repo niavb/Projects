@@ -10,10 +10,6 @@ public class StudentTest {
 		Student[] students = new Student[5];
 		
 		for(int i=0; i<5; i++) {
-			students[i] = new Student();
-		}
-		
-		for(int i=0; i<5; i++) {
 			System.out.println("Въведете име/успех: ");
 			String name = sc.nextLine();
 			double uspeh = sc.nextDouble();
