@@ -47,8 +47,8 @@ public class Triangle extends GeometricObject {
 		return side1 + side2 + side3;
 	}
 	
-	public void printRectangle() {
-		System.out.println("Triangle: side1 = " + getSide1() + " side2 = " + getSide2() + " side3 = " + getSide3());
+	public String printRectangle() {
+		return "Triangle: side1 = " + getSide1() + " side2 = " + getSide2() + " side3 = " + getSide3();
 	}
 	
 	

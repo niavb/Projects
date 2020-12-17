@@ -30,7 +30,7 @@ public class Test {
 		one.setColor(color);
 		one.setFilled(filled);
 		
-		one.printRectangle();
+		System.out.println(one.printRectangle());
 		System.out.println("The area is: " + one.getArea());
 		System.out.println("The parameter is: " + one.getParameter());
 		System.out.println("A triangle " + one.toString());
