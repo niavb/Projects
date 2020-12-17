@@ -1,0 +1,3 @@
+Полиморфизъм има:
+1. Runtime polymorphism във Main.java при променливата pa, която сочи към обекти от класовете-нследници.
+2. Compile time polymorphism при метода computeSalePrice 
